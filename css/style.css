@@ -123,6 +123,7 @@ body {
 #what .items {
     display: flex;
     padding: 1rem;
+    margin: auto;
 }
 #what .item {
     text-align: center;
