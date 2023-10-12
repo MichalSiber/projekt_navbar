@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Pathway+Gothic+One&display=swap');
 
 * {
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Pathway Gothic one' sans-serif;
     background-color: black;
     text-decoration: none;
 
@@ -79,7 +79,7 @@ body {
 
 }
 #showcase {
-    background: rgb(3, 3, 3, 0.3) url("../img/jase-bloor-oCZHIa1D4EU-unsplash.jpg") no-repeat center center/cover;
+    background: rgb(3, 3, 3, 0.5) url("../img/jase-bloor-oCZHIa1D4EU-unsplash.jpg") no-repeat center center/cover;
     height: 125vh;
     color: white;
     }
@@ -87,10 +87,10 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     height: 100%;
-    padding:0 2rem;
+    padding:10rem;
 }
 
 .l-heading {
@@ -103,6 +103,7 @@ body {
 .lead {
     font-size: 1.3rem;
     margin-bottom: 2rem;
+    background-color: black;
 
 }
 .btn {
@@ -115,7 +116,7 @@ body {
 
 }
 .btn:hover {
-    background: rgb(163, 163, 0);
+    background: orange
 }
 .btn-dark {
     background-color: #333;
