@@ -17,7 +17,7 @@ body {
     
 }
 .text-primary {
-    color: green;
+    color: orange;
     font-weight: bolder;
     font-family: 'Roboto Condensed' sans-serif
 }
@@ -129,9 +129,10 @@ body {
 #what .item {
     text-align: center;
     padding: 1rem;
+    color: orange;
 }
 #what .items .item i {
-    background: green;
+    background: black;
     padding: 1rem;
     border-radius: 50%;
     margin-bottom: 1rem;
@@ -158,4 +159,42 @@ body {
 }
 .py-3 {
     padding: 3rem 0;
+}
+.bla {
+    color: black;
+}
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+.bg-dark {
+    background: black;
+    color: #fff;
+}
+.p-1 {
+    padding: 1.5rem;
+}
+.p-2 {
+    padding: 2rem;
+}
+.p-3 {
+    padding: 3rem;
+}
+.list {
+    margin: 0.5rem 0;
+    list-style: none;
+}
+.list li {
+    padding: 0.5rem 0;
+    border-bottom: #444 dotted 1px;
+}
+#who {
+    display: flex;
+}
+#who div {
+    flex: 1;
+}
+#who .who-img {
+    background: url("../img/wallpaperflare.com_wallpaper\ \(2\).jpg") no-repeat top center/cover;
+    max-width: 300px;
 }
