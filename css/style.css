@@ -7,7 +7,7 @@
 
 body {
     font-family:'Roboto Condensed' sans-serif;
-    background-color: white;
+    background-color: black;
     text-decoration: none;
 
 }
@@ -124,12 +124,13 @@ body {
 #what .items {
     display: flex;
     padding: 1rem;
-    justify-content: space-between; 
+    justify-content: space-between;
+    color: white    ;
 }
 #what .item {
     text-align: center;
     padding: 1rem;
-    color: orange;
+    color: white;
 }
 #what .items .item i {
     background: black;
@@ -142,6 +143,7 @@ body {
     margin: auto;
     padding: 0 2rem;
     overflow: hidden;
+    background-color:#011638;
 }
 .text-center {
     text-align: center;
@@ -150,6 +152,7 @@ body {
     font-size: 2rem;
     margin-bottom: 0.75rem;
     line-height: 1.1;
+    color: white;
 
 }
 .py-1 {
@@ -162,7 +165,7 @@ body {
     padding: 3rem 0;
 }
 .bla {
-    color: black;
+    color: white;
 }
 .bg-light {
     background: white;
@@ -200,8 +203,31 @@ body {
     max-width:700px;
 }
 .tabula {
-    margin-left: 15rem;
+    width: 50%;
+    height: 50px;
+    margin-left: 24rem;
+    border-collapse: collapse;
+}
+.tabula td, th{
+    border: 1px solid;
+    text-align: center;
 }
 .tab-head {
     text-align: center;
+    color: orange;
 }
+
+td {
+    height: 30px;
+    background-color: black;
+    color: orange;
+}
+th {
+    background-color: orange;
+    color: black;
+}
+.hr {
+    background-color:orange;
+    height: 5px;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
