@@ -14,6 +14,7 @@ body {
 #logo {
     font-weight: bold;
     font-size: 2rem;
+    padding: 1%;
     
 }
 .text-primary {
@@ -49,7 +50,7 @@ body {
 
 #navbar ul li a {
 
-    padding: 0.75rem;
+    padding: 3px;
 
     margin: 0 0.25rem;
 
@@ -123,8 +124,7 @@ body {
 #what .items {
     display: flex;
     padding: 1rem;
-    margin-left: 19rem;
-    margin-right: 19rem; 
+    justify-content: space-between; 
 }
 #what .item {
     text-align: center;
@@ -150,6 +150,7 @@ body {
     font-size: 2rem;
     margin-bottom: 0.75rem;
     line-height: 1.1;
+
 }
 .py-1 {
     padding: 1.5rem 0;
@@ -164,12 +165,12 @@ body {
     color: black;
 }
 .bg-light {
-    background: #f4f4f4;
+    background: white;
     color: #333;
 }
 .bg-dark {
     background: black;
-    color: #fff;
+    color: orange;
 }
 .p-1 {
     padding: 1.5rem;
@@ -196,5 +197,11 @@ body {
 }
 #who .who-img {
     background: url("../img/wallpaperflare.com_wallpaper\ \(2\).jpg") no-repeat top center/cover;
-    max-width: 300px;
+    max-width:700px;
+}
+.tabula {
+    margin-left: 15rem;
+}
+.tab-head {
+    text-align: center;
 }
