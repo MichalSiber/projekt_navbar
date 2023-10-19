@@ -125,6 +125,7 @@ body {
     display: flex;
     padding: 1rem;
     justify-content: space-between;
+    color: white    ;
 }
 #what .item {
     text-align: center;
