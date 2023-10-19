@@ -208,29 +208,36 @@ body {
     background: url("../img/wallpaperflare.com_wallpaper\ \(2\).jpg") no-repeat top center/cover;
     max-width:100%;
 }
-.tabula {
-    width: 50%;
-    height: 50px;
-    margin-left: 24rem;
+table {
+    border: 0.125rem solid;
     border-collapse: collapse;
+    background-color:var(--table-background)
 }
-.tabula td, th{
-    border: 1px solid;
+
+th {
+    height: 2rem;
+    width: 10%;
     text-align: center;
+    padding: 0.188rem;
+    border: 0.125rem solid;
+    border-bottom: 0.125rem solid;
+    border-collapse: collapse;
+    background-color: #7e1f37
 }
-.tab-head {
-    text-align: center;
-    color: #7f2e37;
+tr {
+    background-color: #000820;
 }
 
 td {
-    height: 30px;
-    background-color: black;
     color: white;
+    height: 2rem;
+    width: 10%;
+    text-align: center;
+    padding: 0.188rem;
+    border-bottom: 0.063rem solid #ddd
 }
-th {
-    background-color: #7f2e37;
-    color: black;
+.tab-head {
+    color: white;
 }
 .hr {
     background-color:orange;
