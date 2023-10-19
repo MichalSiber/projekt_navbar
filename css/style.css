@@ -18,7 +18,7 @@ body {
     
 }
 .text-primary {
-    color: orange;
+    color: #7f2e37;
     font-weight: bolder;
     font-family: 'Roboto Condensed' sans-serif
 }
@@ -62,7 +62,7 @@ body {
 
     border-radius: 3px;
 
-    color: orange;
+    color: #7f2e37;
 
 }
 
@@ -115,7 +115,7 @@ body {
 
 }
 .btn:hover {
-    background: orange
+    background: #7f2e37
 }
 .btn-dark {
     background-color: #333;
@@ -133,7 +133,7 @@ body {
     color: black;
 }
 #what .items .item i {
-    background: orange;
+    background: #7f2e37;
     padding: 1rem;
     border-radius: 50%;
     margin-bottom: 1rem;
@@ -173,7 +173,7 @@ body {
 }
 .bg-dark {
     background: black;
-    color: orange;
+    color: #7f2e37;
     margin-left: 10%;
 }
 .p-1 {
@@ -215,7 +215,7 @@ body {
 }
 .tab-head {
     text-align: center;
-    color: orange;
+    color: #7f2e37;
 }
 
 td {
@@ -224,7 +224,7 @@ td {
     color: white;
 }
 th {
-    background-color: orange;
+    background-color: #7f2e37;
     color: black;
 }
 .hr {
