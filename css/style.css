@@ -210,7 +210,7 @@ body {
     flex: 1;
 }
 #who .who-img {
-    background: url("../img/wallpaperflare.com_wallpaper\ \(2\).jpg") no-repeat top center/cover;
+    background: rgb(0, 0, 0, 0.5) url("../img/wallpaperflare.com_wallpaper\ \(2\).jpg") no-repeat top center/cover;
     max-width:100%;
 }
 table {
@@ -316,20 +316,28 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 .btn2 {
     display: flex;
     justify-content: space-between;
-    color: white;
-    padding: 10px;
-    border: none;
+    background-color: #1ec279;
+    padding: 7px 20px !important;
+    border: 3px solid #1ec279;
     border-radius: 5px;
     text-decoration: none;
+    margin: 0px 0px 0px 20px;
 
 }
+.btn2 a {
+    text-decoration: none;
+    color: #fff;
+}
 .btn2:hover {
-    background: #0078c1;
-    color: #7f2e37;
+    background-color: rgba(255,255,255,0);
+    cursor: pointer;
+}
+button.green-button:hover a{
+ color: #1ec279;
 }
 .btn2-dark {
-    background-color: #333;
-    color: white;
+    background-color: transparent;
+    color: transparent;
 }
 .obliba {
     font-size: 30px;
