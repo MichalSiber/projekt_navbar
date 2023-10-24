@@ -10,6 +10,7 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     background-color: black;
     text-decoration: none;
+    padding-top: auto;
 
 }
 #logo {
@@ -34,6 +35,8 @@ body {
     flex-wrap: wrap;
     font-family: 'Pathway Gothic One', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
+    position: fixed;
+    width: 100%;
 
 }
 #navbar a {
@@ -117,10 +120,12 @@ body {
     padding: 0.5rem 2rem;
     border: none;
     border-radius: 5px;
+    text-decoration: none;
 
 }
 .btn:hover {
-    background: #7f2e37
+    background: black;
+    color: #7f2e37;
 }
 .btn-dark {
     background-color: #333;
@@ -244,3 +249,51 @@ td {
     height: 5px;
 }
 tr:nth-child(even) {background-color: #f2f2f2;}
+
+#navbar1 {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    flex-wrap: wrap;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: static;
+    width: 100%;
+
+}
+#navbar1 a {
+    color: white;
+    text-decoration: none;
+}
+#navbar1 ul {
+
+    display: flex;
+
+    list-style: none;
+
+    align-items: center;
+
+}
+
+ 
+
+#navbar1 ul li a {
+
+    padding: 10px;
+
+    margin: 0 0.25rem;
+    font-size: 20px;
+
+}
+
+#navbar1 ul li a:hover {
+
+    background-color: black;
+
+    border-radius: 3px;
+
+    color: #7f2e37;
+
+}
