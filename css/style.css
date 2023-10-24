@@ -139,7 +139,7 @@ body {
 }
 #what .item {
     text-align: center;
-    padding: 1rem;
+    padding: 5rem;
     color: black;
 }
 #what .items .item i {
@@ -153,7 +153,7 @@ body {
     margin: auto;
     padding: 0 2rem;
     overflow: hidden;
-    background-color:black;
+    background-color:transparent;
 }
 .text-center {
     text-align: center;
@@ -182,7 +182,7 @@ body {
     color: #333;
 }
 .bg-dark {
-    background: black;
+    background: transparent;
     color: #7f2e37;
     margin-left: 10%;
 }
@@ -302,4 +302,44 @@ tr:nth-child(even) {background-color: #f2f2f2;}
     background: rgb(3, 3, 3, 0.1) url("../img/clay-banks-u27Rrbs9Dwc-unsplash.jpg") no-repeat center center/cover;
     max-width: 100%;
     height: 125vh;
+}
+.puvod-h {
+    color: #7e1f37;
+}
+.puvod-p {
+    color: black;
+}
+.pozadi-puvod2 {
+    background: rgb(3, 3, 3, 0.5) url("../img/jj-ying-9Qwbfa_RM94-unsplash.jpg");
+
+}
+.btn2 {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+.btn2:hover {
+    background: #0078c1;
+    color: #7f2e37;
+}
+.btn2-dark {
+    background-color: #333;
+    color: white;
+}
+.obliba {
+    font-size: 30px;
+}
+.body2 {
+    background-color: black;
+}
+.shon {
+    max-width: 20%;
+}
+.oblibene-h {
+    color: #7e1f37;
 }
