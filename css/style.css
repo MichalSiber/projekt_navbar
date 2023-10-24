@@ -297,3 +297,9 @@ tr:nth-child(even) {background-color: #f2f2f2;}
     color: #7f2e37;
 
 }
+
+.pozadi-puvod {
+    background: rgb(3, 3, 3, 0.1) url("../img/clay-banks-u27Rrbs9Dwc-unsplash.jpg") no-repeat center center/cover;
+    max-width: 100%;
+    height: 125vh;
+}
