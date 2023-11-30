@@ -313,6 +313,12 @@ tr:nth-child(even) {background-color: #f2f2f2;}
     background: rgb(3, 3, 3, 0.5) url("../img/jj-ying-9Qwbfa_RM94-unsplash.jpg");
 
 }
+.mnam {
+    color: #7e1f37;
+}
+.mnam2 {
+    color: darkblue;
+}
 .btn2 {
     display: flex;
     justify-content: space-between;
@@ -365,9 +371,29 @@ button.green-button:hover a{
 .body2 {
     background-color: black;
 }
-.shon {
-    max-width: 20%;
+.shon img {
+    width: 400px;
 }
 .oblibene-h {
     color: white;
+    width: 400;
+}
+.obliba {
+    display: flex;
+    justify-content:center;
+    padding: 250px 0;
+    margin-left: 250;
+}
+
+.shonen-img {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+.text-shonen {
+    color: white;
+    font-size: 29px;
+    float: left;
 }
