@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Anime </title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/fadein.css">
 </head> 
 <body>
     <nav id="navbar">
@@ -23,7 +24,7 @@
     <div id="showcase">
         <div class="showcase-content">
             <h1 class="l-heading">Sakata Gintoki</h1>
-            <p class="lead">"If you have time to fantasize about a beautiful end, then just live beautifully 'til the end."</p>
+            <p class="lead">,,If you have time to fantasize about a beautiful end, then just live beautifully 'til the end.''</p>
             <a href="#what" class="btn"> Dozvědět se víc</a>
         </div>
     </div> <hr class="hr">
@@ -34,20 +35,20 @@
                 <div class="item">
                     <i class="fa-solid fa-globe"></i>
                     <div class="bla">
-                        <h3>Původ</h3>
+                        <h3> <a class="bla" href="./puvod.html">Původ</a></h3>
                         <p></p>
                     </div>
                 </div>
                 <div class="item">
-                    <i class="fa-solid fa-film"></i>
+                  <i class="fa-solid fa-film"></i>
                     <div class="bla">
-                        <h3>Žánry</h3>
+                        <h3> <a class="bla" href="./tabulka.html">Žánry </a></h3>
                     </div>
                 </div>
                 <div class="item">
                     <i class="fa-solid fa-fire-flame-curved"></i>
                     <div class="bla">
-                        <h3>Oblíbené anime</h3>
+                        <h3><a class="bla" href="./oblibene.html">Oblíbené anime</a></h3>
                         <p></p>
                     </div>
                 </div>
@@ -71,5 +72,47 @@
             <p>Copyright &copy; 2023, Michal Siber </p>
         </div>
     </footer>
+
+    <script>
+
+        function debounce(func, wait = 20, immediate = true) {
+            var timeout;
+            return function () {
+                var context = this, args = arguments;
+                var later = function () {
+                    timeout = null;
+                    if (!immediate) func.apply(context, args);
+                };
+                var callNow = immediate && !timeout;
+                clearTimeout(timeout);
+                timeout = setTimeout(later, wait);
+                if (callNow) func.apply(context, args);
+            };
+        };
+
+        const sliderImages = document.querySelectorAll('.item');
+
+        function checkSlide() {
+            
+            sliderImages.forEach(sliderImage => {
+                console.log("height",sliderImage.offsetTop);
+                // half way through the image
+                const slideInAt = (window.scrollY + window.innerHeight) - sliderImage.offsetHeight / 2;
+                // bottom of the image
+                const imageBottom = sliderImage.offsetTop + sliderImage.offsetHeight;
+                const isHalfShown = slideInAt > sliderImage.offsetTop;
+                const isNotScrolledPast = window.scrollY < imageBottom;
+                if (isHalfShown && isNotScrolledPast) {
+                    sliderImage.classList.add('active');
+                } else {
+                    sliderImage.classList.remove('active');
+                }
+            });
+        }
+
+        window.addEventListener('scroll', debounce(checkSlide));
+
+
+    </script>
 </body>
 </html>

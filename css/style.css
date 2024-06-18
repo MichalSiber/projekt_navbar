@@ -161,6 +161,7 @@ body {
 .m-heading {
     font-size: 2rem;
     margin-bottom: 0.75rem;
+    padding: 20px;
     line-height: 1.1;
     color: white;
 
@@ -184,7 +185,6 @@ body {
 .bg-dark {
     background: transparent;
     color: #7f2e37;
-    margin-left: 10%;
 }
 .p-1 {
     padding: 1.5rem;
@@ -304,10 +304,10 @@ tr:nth-child(even) {background-color: #f2f2f2;}
     height: 125vh;
 }
 .puvod-h {
-    color: #7e1f37;
+    color:black;
 }
 .puvod-p {
-    color: black;
+    color: white;
 }
 .pozadi-puvod2 {
     background: rgb(3, 3, 3, 0.5) url("../img/jj-ying-9Qwbfa_RM94-unsplash.jpg");
@@ -371,12 +371,49 @@ button.green-button:hover a{
 .body2 {
     background-color: black;
 }
-.shon img {
-    width: 400px;
+.shon-image_1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 2rem;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+    margin-top: 100px;
+    margin-left: 70rem;
 }
-.oblibene-h {
-    color: white;
-    width: 400;
+
+.shon-image_2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 2rem;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+    margin-top: 100px;
+    margin-right: 70rem;
+}
+.shon-image_3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 2rem;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+    margin-top: 100px;
+    margin-left: 70rem;
+}
+.oblibene-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 2rem;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+    margin-top: 100px;
 }
 .obliba {
     display: flex;
@@ -396,4 +433,8 @@ button.green-button:hover a{
     color: white;
     font-size: 29px;
     float: left;
+}
+.obl-txt {
+    color: white;
+
 }
