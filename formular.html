@@ -7,14 +7,6 @@
     <link rel="stylesheet" href="./css/style.css">
 
     <style>
-        body, html {
-            height: 100%;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-family: Arial, sans-serif;
-        }
 
         form {
             border: 2px solid #ccc;
@@ -22,6 +14,7 @@
             background-color: #f9f9f9;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             width: 300px;
+            margin: auto;
         }
 
         label {
@@ -54,22 +47,32 @@
         input[type="submit"]:hover {
             background-color: #7e1f37;
         }
+        .form-background {
+            background: black;
+            align-content: center;
+            position: absolute;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-wrap: wrap;
+        }
     </style>
 </head>
 <body>
     <nav id="navbar">
-        <div id="logo"><a href="index.html">| Anime- <span class="mnam">Nepochopený žánr </span>|</a></div>
+        <div id="logo"><a href="index.html">| Animanga <span class="mnam"> </span>|</a></div>
         <ul>
             <li><a href="./index.html"><i class="fa-solid fa-house fa-fade"></i> Domů</a></li>
             <li><a href="./puvod.html"><i class="fa-solid fa-globe"></i> Původ</a></li>
             <li><a href="#tab"><i class="fa-solid fa-film"></i> Žánry</a></li>
             <li><a href="./oblibene.html"><i class="fa-solid fa-fire-flame-curved"></i> Oblíbené</a></li>
+            <li><a href="./formular.html"><i class="fa-solid fa-clipboard"></i> Formulář</a></li>
         </ul>
         </div>
     </nav>
 
     <h2>Sample Form</h2>
-
+    <div class="form-background">
     <form action="/submit-form" method="POST">
         <label for="name">Jméno:</label><br>
         <input type="text" id="name" name="name" required><br><br>
@@ -79,24 +82,15 @@
         <label for="email">Email:</label><br>
         <input type="email" id="email" name="email" required><br><br>
 
-        <label for="gender">Gender:</label><br>
+        <label for="gender">Pohlaví:</label><br>
         <input type="radio" id="male" name="gender" value="male">
         <label for="muz">Muž</label>
         <input type="radio" id="female" name="gender" value="female">
         <label for="zena">Žena</label><br><br>
 
-        <label for="country">Země:</label><br>
-        <select id="country" name="country">
-            <option value="spojene staty">USA</option>
-            <option value="uk">UK</option>
-            <option value="india">Indie</option>
-            <option value="česká republika">Česko</option>
-            <option value="rusko">Rusko</option>
-        </select><br><br>
 
-
-        <input type="submit" value="Submit">
-    </form>
+        <input type="submit" value="ODESLAT">
+    </form></div>
 
 </body>
 </html>

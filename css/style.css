@@ -35,7 +35,8 @@ body {
     flex-wrap: wrap;
     font-family: 'Pathway Gothic One', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
-    position: fixed;
+    position: sticky;
+    top: 0;
     width: 100%;
 
 }
@@ -259,7 +260,8 @@ tr:nth-child(even) {background-color: #f2f2f2;}
     flex-wrap: wrap;
     font-family: 'Pathway Gothic One', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
-    position: static;
+    position: sticky;
+    top: 0;
     width: 100%;
 
 }
@@ -372,38 +374,26 @@ button.green-button:hover a{
     background-color: black;
 }
 .shon-image_1{
-    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 2rem;
     width: 100%;
     max-width: 500px;
     margin: 0 auto;
-    margin-bottom: 6rem;
-    margin-top: 100px;
-    margin-left: 70rem;
 }
 
 .shon-image_2 {
-    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 2rem;
     width: 100%;
     max-width: 500px;
     margin: 0 auto;
-    margin-bottom: 6rem;
-    margin-top: 100px;
-    margin-right: 70rem;
 }
 .shon-image_3 {
-    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 2rem;
     width: 100%;
     max-width: 500px;
     margin: 0 auto;
-    margin-bottom: 6rem;
-    margin-top: 100px;
-    margin-left: 70rem;
 }
 .oblibene-grid {
     display: grid;
@@ -431,8 +421,8 @@ button.green-button:hover a{
 
 .text-shonen {
     color: white;
-    font-size: 29px;
-    float: left;
+    font-size: 25px;
+    display: block;
 }
 .obl-txt {
     color: white;
@@ -488,3 +478,19 @@ button.green-button:hover a{
             background-color: #7e1f37;
         }
         }
+        .container2 {
+            display: grid;
+            align-items: center; 
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 5px;
+           }
+
+           img {
+            max-width: 100%;
+            max-height:100%;
+          }
+
+          .title {
+            font-size: 50px;
+            color: white;
+          }
