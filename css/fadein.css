@@ -85,7 +85,6 @@ p {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-/* Section Co děláme  */
 #what .items {
     display: flex;
     padding: 1rem;
@@ -115,82 +114,3 @@ p {
     border-radius: 50%;
     margin-bottom: 1rem;
 }
-</style>
-
-<div class="showcase-content">
-    <h1>Showcase</h1>
-</div>
-</header>
-
-<section id="what" class="bg-light py-1">
-<div class="container">
-    <h2 class="m-heading text-center">
-        <span class="text-primary">Co</span>
-        děláme
-    </h2>
-    <div class="items">
-        <div class="item">
-            <i class="fas fa-book fa-2x"></i>
-            <div>
-                <h3>Půjčujeme knihy</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Eveniet, laboriosam?
-                </p>
-            </div>
-        </div>
-        <div class="item">
-            <i class="fas fa-book-reader fa-2x"></i>
-            <div>
-                <h3>Čtenářské dílny</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Eveniet, laboriosam?
-                </p>
-            </div>
-        </div>
-        <div class="item">
-            <i class="fas fa-pencil-alt fa-2x"></i>
-            <div>
-                <h3>Recenze</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Eveniet, laboriosam?
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="items">
-        <div class="item">
-            <i class="fas fa-book fa-2x"></i>
-            <div>
-                <h3>Půjčujeme knihy</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Eveniet, laboriosam?
-                </p>
-            </div>
-        </div>
-        <div class="item">
-            <i class="fas fa-book-reader fa-2x"></i>
-            <div>
-                <h3>Čtenářské dílny</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Eveniet, laboriosam?
-                </p>
-            </div>
-        </div>
-        <div class="item">
-            <i class="fas fa-pencil-alt fa-2x"></i>
-            <div>
-                <h3>Recenze</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Eveniet, laboriosam?
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
-</section>

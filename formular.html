@@ -6,57 +6,6 @@
     <title>Formulář</title>
     <link rel="stylesheet" href="./css/style.css">
 
-    <style>
-
-        form {
-            border: 2px solid #ccc;
-            padding: 20px;
-            background-color: #f9f9f9;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            width: 300px;
-            margin: auto;
-        }
-
-        label {
-            display: block;
-            margin-bottom: 5px;
-        }
-
-        input[type="text"], input[type="email"], select, textarea {
-            width: 100%;
-            padding: 8px;
-            margin: 10px 0;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-
-        textarea {
-            resize: vertical;
-        }
-
-        input[type="submit"] {
-            background-color: black;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            width: 100%;
-        }
-
-        input[type="submit"]:hover {
-            background-color: #7e1f37;
-        }
-        .form-background {
-            background: black;
-            align-content: center;
-            position: absolute;
-            justify-content: center;
-            align-items: center;
-            display: flex;
-            flex-wrap: wrap;
-        }
-    </style>
 </head>
 <body>
     <nav id="navbar">
@@ -64,29 +13,23 @@
         <ul>
             <li><a href="./index.html"><i class="fa-solid fa-house fa-fade"></i> Domů</a></li>
             <li><a href="./puvod.html"><i class="fa-solid fa-globe"></i> Původ</a></li>
-            <li><a href="#tab"><i class="fa-solid fa-film"></i> Žánry</a></li>
+            <li><a href="./tabulka.html"><i class="fa-solid fa-film"></i> Žánry</a></li>
             <li><a href="./oblibene.html"><i class="fa-solid fa-fire-flame-curved"></i> Oblíbené</a></li>
             <li><a href="./formular.html"><i class="fa-solid fa-clipboard"></i> Formulář</a></li>
         </ul>
         </div>
     </nav>
 
-    <h2>Sample Form</h2>
+    <h2>Nové Anime</h2>
     <div class="form-background">
-    <form action="/submit-form" method="POST">
-        <label for="name">Jméno:</label><br>
-        <input type="text" id="name" name="name" required><br><br>
-        <label for="last_name">Přijmení:</label><br>
-        <input type="text" id="name" name="name" required><br><br>
-
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
-
-        <label for="gender">Pohlaví:</label><br>
-        <input type="radio" id="male" name="gender" value="male">
-        <label for="muz">Muž</label>
-        <input type="radio" id="female" name="gender" value="female">
-        <label for="zena">Žena</label><br><br>
+    <form action="/php/php-submit.php" method="POST">
+        <h2 class="form-heading">Nové Anime</h2>
+        <label for="nazev">Název</label><br>
+        <input type="text" id="nazev" name="nazev" required><br><br>
+        <label for="datum_vydani">Datum Vydání:</label><br>
+        <input type="date" id="birthdate" name="birthdate" required><br><br>
+        <label for="zanr">Žánr:</label><br>
+        <input type="text" id="zanr" name="zanr" required><br><br>
 
 
         <input type="submit" value="ODESLAT">
